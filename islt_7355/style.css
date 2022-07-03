@@ -1,6 +1,38 @@
+/* This is my Style Sheet for my procject*/
 * { margin: 0;
     padding: 0;}
-    body { background-color: #666666;}
-        #header1 {color: #ffcc33;
+    body { background-color: #1b4353;}
+    .main {width:100%;
+        background-color: #666666;
+        border:none;
+        padding: 10px 10px;
+        margin-top: 0px;}
+    .header1 {color: #4fbcc2;
                     text-align: center;
-}
+                    font-family: "Merriweather";}
+    .header3 {color: #cccccc;
+                   text-align: center;
+                   font-family: "proxima-nova";} 
+    .para {color: #cccccc;
+                   font-family: "proxima-nova";}
+    .quote {color: #a1973a;
+                font-family: "proxima-nova-condensed";
+                font-style: italic;
+                font-weight: 100;}
+    .link {color: #a1973a;
+                font-family: "Merriweather";
+                font-style: bold;
+                font-style: italic;}
+    .link:hover {color: #4fbcc2;}
+    .resources {color: #cccccc;
+                    font-family: "proxima-nova";}
+    .resources2 {text-indent: 25px;
+                     color: #cccccc;
+                     font-family: "proxima-nova";}
+    .resources3 {color: #cccccc;
+                     font-family: "proxima-nova";}
+    .rlink {color: #a1973a;}
+    .footer {color: #cccccc;
+          font-family: "merriweater"}
+    .rlink:hover { color: #4fbcc2;}
+/*This is my style sheet for my project*/
