@@ -81,11 +81,23 @@
     .resources3 {color: #cccccc;
                      font-family: "proxima-nova";}
     .rlink {color: #a1973a;}
-    .footer {color: #cccccc;
+    .footer {color: #000000;
         font-family: "merriweather", serif;
         font-weight: 400;
-        font-style: normal;}
-    .rlink:hover { color: #4fbcc2;}
+        font-style: normal;
+        text-align: center;
+        border: #666666;
+        border-style: solid;
+        border-width: 2px;
+        background-image: url(../islt_7355/Images/IMG-3345.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;}
+    .flink {color: #000000;
+            font-family: "merriweather", serif;
+            font-weight: 400;
+            font-style: normal;} 
+    .flink:hover { color:#666666;}   
+    .rlink:hover { color: #666666;}
     @media (max-width: 800px) { .grid-container,.nav, .body, .main, .footer {width: 100%;} }
     @media print {.nav,.header1::before,.headshot,.resume, 
         img {display: none;}
