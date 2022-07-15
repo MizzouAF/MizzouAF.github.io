@@ -98,6 +98,10 @@
             font-style: normal;} 
     .flink:hover { color:#666666;}   
     .rlink:hover { color: #666666;}
+    .phone {transition: 0.3s linear;}
+    .phone:hover {transform: scale(1.50);}
+    .mail {transition: 0.3s linear;}
+    .mail:hover {transform: scale(1.50);}
     @media (max-width: 800px) { .grid-container,.nav, .body, .main, .footer {width: 100%;} }
     @media print {.nav,.header1::before,.headshot,.resume, 
         img {display: none;}
