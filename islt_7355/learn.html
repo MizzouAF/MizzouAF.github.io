@@ -7,18 +7,23 @@
                <link rel="stylesheet" type= "text/css" href="nav.css">
 </head>
 <body>
-    <nav>
+    <nav id="hamnav" >
+        <label for="hamburger">&#9776;</label> 
+        <input type = "checkbox" id ="hamburger"/>
+       <div class ="dropdown" id="hamitems">
         <ul>
-            <li><a href= ../islt_7355/index.html>Home</a></li>
-            <li><a href= ../islt_7355/about.html>About</a></li>
-            <li><a href= #learn.html>Learn</a>
-            <ul><li><a href= #Learn1.html>Learn 1</a></li>
-                <li><a href= #Learn2.html>Learn 2</a></li>
-                <li><a href= #Learn3.html>Learn 3</a></li>
-            </ul></li>
-            <li><a href= #contact.html>Contact</a></li>
-            <li><a href= ../islt_7355/reference.html>References & Resources</a></li>
+         <li><a href= ../islt_7355/index.html>Home</a></li>
+         <li><a href= ../islt_7355/about.html>About</a></li>
+         <li><a href= ../islt_7355/contact.html>Contact</a></li>
+         <li><a href= ../islt_7355/reference.html>References & Resources</a></li>  
+         <li><a href= ../islt_7355/learn.html>Learn</a>
+            <ul class="submenu">
+                <li><a href="#Learn 1">Cloud Observing</a></li>
+                <li><a href="#Learn 2">Precipitation Observing</a></li>
+                <li><a href= "Learn 3">Weather Instruments & Measurements</a></li>
+            </ul>
         </ul>
-    </nav>
+       </div>
+     </nav>
 </body>
 </html>
