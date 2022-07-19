@@ -18,7 +18,8 @@
             font-style: normal;} 
 #hamnav li:hover .submenu > li { display:block;
                                  margin-left: -120px;
-                                background-color: #173753;}  
+                                background-color: #173753;
+                                padding: 5px;}  
 .submenu li {display: none;
              position: absolute;
              top: 0px;}
@@ -32,6 +33,7 @@
              flex-basis: 0;
              padding: 10px;
              color: #a1973a;
+             background: #173753;
              text-decoration: none;
              text-align: center;}
 #hamitems a:hover {color: #4fbcc2;}
