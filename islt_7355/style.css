@@ -177,7 +177,7 @@
     .phone:hover {transform: scale(1.50);}
     .mail {transition: 0.3s linear;}
     .mail:hover {transform: scale(1.50);}
-    .contactcontainer {width: 80%;
+    /*.contactcontainer {width: 80%;
                        margin: 50px auto;}
     .contact-box {background: #fff;
                   display: flex;}
@@ -218,12 +218,24 @@
               color: #4fbcc2;
               height: 35px;
               margin-top: 20px;}
-     tr td:first-child {padding-right: 20px;}
+     tr td:first-child {padding-right: 20px;}*/
+     table { width: 500px;}
+     table, th, td { border:1px solid #cccccc;
+                     border-collapse: collapse;}
+     th, caption, td { text-align: left;
+                       color: #cccccc;}
+    th, td { padding-left: 10px;}
+    th {background-color:#1b4353;}
+    tr:nth-child(even) {background-color: #173753;}
+    tr:last-child {background-color: #1b4353;}
     @media screen and (max-width: 768px) { h1 { font-size: 21px;}
         h2 {font-size: 24px;}
         h3 {font-size: 18px;}
-        p {font-size: 14px;
-        }}
+        p {font-size: 14px;}
+        table {width: 80%;
+               margin-left: 10%;
+               margin-right: 10%;}
+    }
     
     
     
