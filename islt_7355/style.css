@@ -14,13 +14,14 @@
     .indexcontainer {display:grid;
                      grid-template-columns: auto;
                      grid-template-rows: auto;}
-   .intro { grid-row: 1 / 3; grid-column: 1 / 2;
+   .intro { grid-row: 1 / 3; grid-column: 1 / 4;
             align-self: center;}
-    .MAAF { grid-row: 1 / 3; grid-column:  5 / 7;}
-    .FHAZ { grid-row: 3 / 5; grid-column: 1 / 4;}
-    .purpose { padding-left: 50px;
-               grid-row: 3 / 5; grid-column: 5 / 7;
-               align-self: center;}
+    .MAAF { grid-row: 1 / 3; grid-column:  4 / 7;}
+    .FHAZ { grid-row: 3 / 5; grid-column: 1 / 4;
+            margin-left: 40px;}
+    .purpose {grid-row: 3 / 5; grid-column: 4 / 7;
+               align-self: center;
+              margin-right: 10px;}
     .aboutsection { display: grid;
                 grid-template-columns: auto;
                 grid-template-rows: auto;
@@ -126,7 +127,8 @@
     .resp { width: 100%;
                   max-width: 600px;
                   height: auto;
-                  padding: 10px;}
+                  padding: 10px;
+                  align-self: center;}
     .resp2 { width:100%;
             max-width: 600px;
             height: auto;
