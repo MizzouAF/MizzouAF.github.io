@@ -66,10 +66,11 @@
                     align-self: center; margin-left: 20px;} 
     .Rainexplained { grid-row: 5 / 6; grid-Column: 1 / 4;
                          margin-left: 20px;}
-    .PrecipPara2 { grid-row: 5 / 6; grid-column: 4 / 7;
+    .PrecipPara2 { grid-row: 5 / 6; grid-column: 3 / 7;
                     margin-right: 20px; align-self: center;} 
-    .Snowexplained { grid-row: 7 / 8; grid-column: 1 / 4;
-                    margin-bottom: 10px;}
+    .Snowexplained { grid-row: 7 / 8; grid-column: 1 / 3;
+                    margin-bottom: 10px;
+                    padding-right:20px;}
     .tlink2 { grid-row:8 / 9; grid-column: 1 / 2;
               margin-left: 20px; margin-bottom: 20px;}
     .Section3 { display: grid;
